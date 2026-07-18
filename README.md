@@ -5,66 +5,32 @@
 
 ### <kbd>Software Engineering Intern Candidate | Distributed Systems & AI</kbd>
 
-<br>
+🚀 3D Interactive Portfolio Website
 
-<p align="center">
-  <a href="https://sathvikakosana.github.io/"><b>View Live Portfolio (3D Interactive Experience)</b></a>
-</p>
+A modern, responsive, and visually engaging personal portfolio website built using HTML5, CSS3, JavaScript, Three.js, and GSAP. The project showcases a software engineering portfolio with smooth animations, interactive 3D elements, elegant UI design, and performance-focused implementation.
 
-</div>
+✨ Features
 
-<br>
+- 🎨 Modern and fully responsive UI/UX
+- 🌌 Interactive 3D graphics powered by Three.js
+- ⚡ Smooth page transitions and scroll animations using GSAP & ScrollTrigger
+- 👤 Professional Hero, About, Skills, Projects, and Contact sections
+- 📊 Animated skill progress bars
+- 📱 Mobile-friendly design
+- 📄 One-click downloadable resume
+- 📬 Contact form with direct email integration
+- 🌟 Glassmorphism design with gradient effects and glowing UI elements
+- 🚀 Optimized loading experience with a custom animated preloader
 
-## 📂 System.Overview()
-> "Bridging complex theory with production-grade architecture. I specialize in designing scalable backend systems and intelligent software solutions."
+🛠️ Technologies Used
 
-I am currently a Computer Science undergraduate at Aditya University, focusing on the intersection of **Distributed Systems, High-Performance Backend Engineering, and Generative AI.**
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Three.js
+- GSAP (GreenSock Animation Platform)
+- ScrollTrigger
 
----
+🎯 Purpose
 
-## ⚙️ Technical Core
-*Built on a foundation of rigorous problem solving and modern engineering standards.*
-
-<div align="center">
-
-| Domain | Stack |
-| :--- | :--- |
-| **Languages** | Java, Python, JavaScript, C |
-| **Backend** | Node.js, Express.js, REST APIs |
-| **Data/Storage** | SQL, Firebase Realtime Database, Firestore |
-| **Infrastructure** | AWS, Git, GitHub, Linux |
-| **AI/ML** | Generative AI, Gemini API, ML Fundamentals |
-
-</div>
-
----
-
-## 🚀 Projects & Impact
-
-*   **BloodByte** | *Emergency Donor Network*
-    *   Designed real-time donor matching via Firebase and location-based synchronization.
-*   **Interactive 3D Portfolio** | *Engineered Experience*
-    *   Developed a custom WebGL/Three.js-powered portfolio featuring GSAP animations and responsive design patterns.
-*   **Professional Backend Experience**
-    *   **Averixis Solutions:** Data Engineering focus on Python/SQL pipelines.
-    *   **1stop.ai:** Backend development specializing in RESTful architecture.
-
----
-
-## 📡 Establish_Connection
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kosanasathvika@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sathvika-kosana-966366344)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/kosanasathvika/)
-
-</div>
-
-<br>
-
-<div align="center">
-  
-  *© 2026 | Designed with focus on Scalability & Performance.*
-
-</div>
+This project demonstrates modern frontend development techniques by combining responsive web design, 3D graphics, smooth animations, and interactive user experiences to create a professional portfolio suitable for software engineering and internship applications.
