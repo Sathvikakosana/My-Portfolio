@@ -74,18 +74,21 @@ function initThreeJS() {
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
   root.appendChild(renderer.domElement);
 
-  const light1 = new THREE.DirectionalLight(0x7c5cff, 1.5); light1.position.set(50,50,100);
-  const light2 = new THREE.DirectionalLight(0x2ee6c7, 1.0); light2.position.set(-50,-30,80);
+  // Updated lighting to match Copper and Peach accents
+  const light1 = new THREE.DirectionalLight(0xb87b6a, 1.5); light1.position.set(50,50,100);
+  const light2 = new THREE.DirectionalLight(0xdfa897, 1.0); light2.position.set(-50,-30,80);
   scene.add(light1, light2);
 
   const g = new THREE.IcosahedronGeometry(50, 3);
+  // Updated solid inner core to a darker copper
   const mat = new THREE.MeshStandardMaterial({
-    roughness: 0.1, metalness: 0.7, color: 0x5d47ff, transparent: true, opacity: 0.9
+    roughness: 0.1, metalness: 0.7, color: 0x9c5e4a, transparent: true, opacity: 0.9
   });
   const orb = new THREE.Mesh(g, mat); scene.add(orb);
 
   const geo2 = new THREE.IcosahedronGeometry(72, 2);
-  const mat2 = new MeshBasicMaterial({color: 0x2ee6c7, wireframe: true, opacity: 0.15, transparent: true});
+  // Updated wireframe shell to light peach
+  const mat2 = new MeshBasicMaterial({color: 0xdfa897, wireframe: true, opacity: 0.15, transparent: true});
   const shell = new THREE.Mesh(geo2, mat2); scene.add(shell);
 
   const pCount = 100; const pts = new THREE.BufferGeometry();
@@ -96,7 +99,8 @@ function initThreeJS() {
     arr[i*3+2] = (Math.random()-0.5)*280; 
   }
   pts.setAttribute('position', new THREE.BufferAttribute(arr,3));
-  const part = new THREE.Points(pts, new THREE.PointsMaterial({size:3, opacity:0.8, color: 0x2ee6c7, transparent:true})); 
+  // Updated floating particles to light peach
+  const part = new THREE.Points(pts, new THREE.PointsMaterial({size:3, opacity:0.8, color: 0xdfa897, transparent:true})); 
   scene.add(part);
 
   let isHeroVisible = true;
